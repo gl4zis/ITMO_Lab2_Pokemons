@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/Roma/Desktop/Лабы/Прога/Лаба2/Pokemon</OriginalElement>
+  <nodes>
+    <node x="109.18749999999977" y="130.68749999999983">main.pokemons.ChanseyPokemon</node>
+    <node x="-112.62499999999989" y="-83.0">main.Main</node>
+    <node x="447.6874999999998" y="-630.4374999999998">main.moves.StoneEdgeMove</node>
+    <node x="115.68749999999977" y="-473.2499999999999">main.pokemons.ShucklePokemon</node>
+    <node x="401.8749999999998" y="59.81249999999983">main.moves.DoubleTeamMove</node>
+    <node x="115.68749999999977" y="-338.4999999999999">main.pokemons.EspurrPokemon</node>
+    <node x="371.2499999999998" y="320.5624999999997">main.moves.IceBeamMove</node>
+    <node x="463.6874999999998" y="-228.18749999999994">main.moves.EnergyBallMove</node>
+    <node x="415.8749999999998" y="-19.875000000000114">main.moves.WorkUpMove</node>
+    <node x="459.6874999999998" y="-354.3124999999997">main.moves.DarkPulseMove</node>
+    <node x="114.68749999999977" y="293.74999999999983">main.pokemons.BlisseyPokemon</node>
+    <node x="457.6874999999998" y="-510.31249999999966">main.moves.WithdrawMove</node>
+    <node x="453.6874999999998" y="-560.6874999999997">main.moves.MudSlapMove</node>
+    <node x="453.6874999999998" y="-446.2499999999999">main.moves.RockPolishMove</node>
+    <node x="108.68749999999977" y="-19.875000000000114">main.pokemons.HappinyPokemon</node>
+    <node x="459.6874999999998" y="-147.24999999999994">main.moves.ShadowBallMove</node>
+    <node x="401.8749999999998" y="183.4375">main.moves.PresentMove</node>
+    <node x="90.18749999999977" y="-179.1875">main.pokemons.MeowsticMalePokemon</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="main.pokemons.ChanseyPokemon" target="main.pokemons.HappinyPokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="main.pokemons.ChanseyPokemon" target="main.moves.PresentMove" relationship="CREATE">
+      <point x="82.0" y="0.0" />
+      <point x="468.3749999999998" y="145.18749999999983" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="main.pokemons.EspurrPokemon" target="main.moves.EnergyBallMove" relationship="CREATE">
+      <point x="15.0" y="14.5" />
+      <point x="206.18749999999977" y="-213.68749999999994" />
+      <point x="-75.5" y="0.0" />
+    </edge>
+    <edge source="main.Main" target="main.pokemons.MeowsticMalePokemon" relationship="CREATE">
+      <point x="41.0" y="0.0" />
+      <point x="191.18749999999977" y="-68.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="main.pokemons.ShucklePokemon" target="main.moves.RockPolishMove" relationship="CREATE">
+      <point x="30.0" y="14.5" />
+      <point x="225.18749999999977" y="-426.7499999999999" />
+      <point x="-77.5" y="5.0" />
+    </edge>
+    <edge source="main.pokemons.HappinyPokemon" target="main.moves.DoubleTeamMove" relationship="CREATE">
+      <point x="15.0" y="14.5" />
+      <point x="206.18749999999977" y="74.31249999999983" />
+      <point x="-83.5" y="0.0" />
+    </edge>
+    <edge source="main.Main" target="main.pokemons.ShucklePokemon" relationship="CREATE">
+      <point x="0.0" y="-14.5" />
+      <point x="-71.62499999999989" y="-458.7499999999999" />
+      <point x="-79.5" y="0.0" />
+    </edge>
+    <edge source="main.Main" target="main.pokemons.EspurrPokemon" relationship="CREATE">
+      <point x="15.0" y="-14.5" />
+      <point x="-56.624999999999886" y="-323.9999999999999" />
+      <point x="-75.5" y="0.0" />
+    </edge>
+    <edge source="main.pokemons.BlisseyPokemon" target="main.moves.IceBeamMove" relationship="CREATE">
+      <point x="0.0" y="14.5" />
+      <point x="191.18749999999977" y="340.24999999999983" />
+      <point x="-69.5" y="5.187500000000114" />
+    </edge>
+    <edge source="main.pokemons.EspurrPokemon" target="main.moves.WorkUpMove" relationship="CREATE">
+      <point x="75.49950000000024" y="-1.1368683772161603E-13" />
+      <point x="392.0" y="-324.0" />
+      <point x="392.0" y="-5.375" />
+      <point x="-69.49999999999977" y="1.1368683772161603E-13" />
+    </edge>
+    <edge source="main.pokemons.ShucklePokemon" target="main.moves.WithdrawMove" relationship="CREATE">
+      <point x="79.5" y="-5.0" />
+      <point x="531.1874999999998" y="-463.7499999999999" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="main.Main" target="main.pokemons.ChanseyPokemon" relationship="CREATE">
+      <point x="-15.0" y="14.5" />
+      <point x="-86.62499999999989" y="145.18749999999983" />
+      <point x="-82.0" y="0.0" />
+    </edge>
+    <edge source="main.pokemons.EspurrPokemon" target="main.moves.DarkPulseMove" relationship="CREATE">
+      <point x="4.0" y="-14.5" />
+      <point x="195.18749999999977" y="-354.3124999999997" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="main.pokemons.ShucklePokemon" target="main.moves.MudSlapMove" relationship="CREATE">
+      <point x="0.0" y="-14.5" />
+      <point x="195.18749999999977" y="-546.1874999999997" />
+      <point x="-71.5" y="0.0" />
+    </edge>
+    <edge source="main.pokemons.MeowsticMalePokemon" target="main.pokemons.EspurrPokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="main.pokemons.HappinyPokemon" target="main.moves.WorkUpMove" relationship="CREATE">
+      <point x="82.49950000000024" y="1.1368683772161603E-13" />
+      <point x="-69.49999999999977" y="1.1368683772161603E-13" />
+    </edge>
+    <edge source="main.pokemons.BlisseyPokemon" target="main.pokemons.ChanseyPokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="main.Main" target="main.pokemons.HappinyPokemon" relationship="CREATE">
+      <point x="0.0" y="14.5" />
+      <point x="-71.62499999999989" y="-5.375000000000114" />
+      <point x="-82.5" y="0.0" />
+    </edge>
+    <edge source="main.pokemons.ShucklePokemon" target="main.moves.StoneEdgeMove" relationship="CREATE">
+      <point x="-15.0" y="-14.5" />
+      <point x="180.18749999999977" y="-615.9374999999998" />
+      <point x="-77.5" y="0.0" />
+    </edge>
+    <edge source="main.Main" target="main.pokemons.BlisseyPokemon" relationship="CREATE">
+      <point x="-30.0" y="14.5" />
+      <point x="-101.62499999999989" y="308.24999999999983" />
+      <point x="-76.5" y="0.0" />
+    </edge>
+    <edge source="main.pokemons.MeowsticMalePokemon" target="main.moves.ShadowBallMove" relationship="CREATE">
+      <point x="101.0" y="-0.06249999999994316" />
+      <point x="539.1874999999998" y="-164.74999999999994" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6400000000000003" showDependencies="true" x="402.96874999999955" y="-135.34375000000023" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
