@@ -23,7 +23,7 @@ public class Main {
         b.addFoe(p6);
         try {
             b.go();
-        } catch (Exception e) {
+        } catch (NullPointerException e) {
             System.out.println("В командах не хватает участников");
         }
     }
